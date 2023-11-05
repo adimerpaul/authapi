@@ -20,7 +20,7 @@ export default {
   },
   methods:{
     carsGet(){
-      this.$axios.get('http://localhost:8000/api/cars',
+      this.$axios.get('http://192.168.1.7:82/api/cars',
         { headers: {"Authorization" : `Bearer ${this.token}`} }
       )
       .then(res=>{

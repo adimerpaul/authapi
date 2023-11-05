@@ -25,7 +25,7 @@ export default {
   methods:{
     login(){
       this.loading=true
-      this.$axios.post('http://localhost:8000/api/login',{
+      this.$axios.post('http://192.168.1.7:82/api/login',{
         email: this.email,
         password: this.password
       }).then(res=>{
