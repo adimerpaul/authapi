@@ -1,0 +1,1 @@
+import{Q as a}from"./QPage.731c6c29.js";import{_ as e,J as t,K as o,L as r,S as s}from"./index.1add264a.js";import"./render.6f1db743.js";const n={name:"PaginaPage1"},c=s("h3",null,"Pagina 1",-1);function _(i,p,f,l,d,m){return t(),o(a,null,{default:r(()=>[c]),_:1})}var h=e(n,[["render",_]]);export{h as default};

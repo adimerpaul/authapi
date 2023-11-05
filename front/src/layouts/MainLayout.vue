@@ -93,7 +93,7 @@ export default defineComponent({
     logout(){
       console.log(this.store.token)
 
-      this.$axios.post('http://localhost:8000/api/logout', null ,
+      this.$axios.post('http://192.168.1.7:82/api/logout', null ,
         { headers: {"Authorization" : `Bearer ${this.store.token}`} }
       )
       .then(res=>{
